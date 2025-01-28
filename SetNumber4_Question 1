@@ -20,5 +20,6 @@ def Lampros(numCourses, prerequisites):
             in_degree[neighbor] -= 1
             if in_degree[neighbor] == 0:
                 queue.append(neighbor)
-    
+
+
     return all_courses == numCourses 
